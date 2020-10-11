@@ -1,0 +1,4 @@
+git init
+git add nomefile
+git commit -m "nomecommit"
+git push 
