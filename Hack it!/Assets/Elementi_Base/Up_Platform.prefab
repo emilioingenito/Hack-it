@@ -91,6 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3699338905318278703}
   - component: {fileID: 3860777711977265589}
+  - component: {fileID: -2089875966017819074}
   m_Layer: 0
   m_Name: Up_Platform
   m_TagString: Untagged
@@ -166,6 +167,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &-2089875966017819074
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962198991803638563}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 3
 --- !u!1 &1389259155850824800
 GameObject:
   m_ObjectHideFlags: 0
