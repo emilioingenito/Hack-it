@@ -14,6 +14,8 @@ public class Move2D : MonoBehaviour
     [SerializeField] //this makes the ground check a field in the character inspector
     Transform groundCheck;
 
+    private float runspeed = 3;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,31 +40,33 @@ public class Move2D : MonoBehaviour
 
         if (Input.GetKey("right")) //se l'input è il tasto freccetta destra
         {
-            rb2d.velocity = new Vector2(3, rb2d.velocity.y); //we're giving a new velocity that's 2 on the x and keeping the y
-            animator.Play("Run"); //if the player is going right we want him to play the animation Run
+            rb2d.velocity = new Vector2(runspeed, rb2d.velocity.y); //we're giving a new velocity that's 2 on the x and keeping the y
+            if (isGrounded)
+                animator.Play("Run"); //if the player is going right we want him to play the animation Run
             spriteRenderer.flipX = false; //we dont want it to flip when he goes right
         }
-        else if(Input.GetKey("left")) //se l'input è il tasto freccetta sinistra
+        else if (Input.GetKey("left")) //se l'input è il tasto freccetta sinistra
         {
-            rb2d.velocity = new Vector2(-3, rb2d.velocity.y);
-            animator.Play("Run");
+            rb2d.velocity = new Vector2(-runspeed, rb2d.velocity.y);
+            if (isGrounded)
+                animator.Play("Run");
             spriteRenderer.flipX = true; //we want him to flip when he goes left
         }
-        else
+        else if (Input.GetKey("down"))
+        {
+            rb2d.velocity = new Vector2(0, 0);
+            animator.Play("Colpo");
+        }
+        else if (isGrounded)
         {
             animator.Play("Player");
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
         }
 
-        if((Input.GetKey("space") || Input.GetKey("up")) && isGrounded)
+        if ((Input.GetKey("space") || Input.GetKey("up")) && isGrounded)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 5); //we'll keep the movement but we'll change the y 
             animator.Play("Jump");
-        }
-
-        if(Input.GetKey("down"))
-        {
-            animator.Play("Colpo");
         }
     }
 }
