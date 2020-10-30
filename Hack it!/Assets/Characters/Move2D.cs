@@ -13,6 +13,10 @@ public class Move2D : MonoBehaviour
     bool isGrounded;
     [SerializeField] //this makes the ground check a field in the character inspector
     Transform groundCheck;
+    [SerializeField] 
+    Transform groundCheckL;
+    [SerializeField]
+    Transform groundCheckR;
 
     [SerializeField]
     private float runspeed = 3;
@@ -32,7 +36,9 @@ public class Move2D : MonoBehaviour
     /*Similar to the Update function but more accurate for games based in the physic world*/
     private void FixedUpdate()
     {
-        if (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")))
+        if (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"))||
+            Physics2D.Linecast(transform.position, groundCheckL.position, 1 << LayerMask.NameToLayer("Ground")) ||
+            Physics2D.Linecast(transform.position, groundCheckR.position, 1 << LayerMask.NameToLayer("Ground")))
         {
             isGrounded = true;
         }
