@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 197959770564183975}
   - component: {fileID: 8254254535181015611}
+  - component: {fileID: -7703070760562917601}
   m_Layer: 0
   m_Name: Blocco5
   m_TagString: Untagged
@@ -88,6 +89,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &-7703070760562917601
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7515036960175887125}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0001, y: 0.0001}
+  m_EdgeRadius: 0
 --- !u!1001 &1601250396847450318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -259,6 +286,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Up_Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.80443573
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.608963
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.053588867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.68042
       objectReference: {fileID: 0}
     - target: {fileID: 3699338905318278703, guid: 87158ce26020b6b4bbed74e61de3d009,
         type: 3}
