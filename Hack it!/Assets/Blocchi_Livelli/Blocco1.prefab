@@ -1562,16 +1562,14 @@ GameObject:
   - component: {fileID: 1871935455379262375}
   - component: {fileID: 1871935455379262374}
   - component: {fileID: 1871935455379262373}
-
   - component: {fileID: 1394005031}
   m_Layer: 8
-
   m_Name: Blocco1
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1871935455379262375
 Transform:
   m_ObjectHideFlags: 0
@@ -1637,9 +1635,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-
 --- !u!61 &1394005031
-
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1652,9 +1648,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-
-  m_Offset: {x: 0, y: 0.19802228}
-
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1665,10 +1659,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-
-  m_Size: {x: 0.99999994, y: 1.3960445}
-
-
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1871935455497367629
 GameObject:
