@@ -287,6 +287,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Up_Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.80443573
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.608963
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.053588867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683212896758881764, guid: 87158ce26020b6b4bbed74e61de3d009,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.68042
+      objectReference: {fileID: 0}
     - target: {fileID: 3699338905318278703, guid: 87158ce26020b6b4bbed74e61de3d009,
         type: 3}
       propertyPath: m_LocalPosition.x
