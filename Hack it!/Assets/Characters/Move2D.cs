@@ -14,7 +14,10 @@ public class Move2D : MonoBehaviour
     [SerializeField] //this makes the ground check a field in the character inspector
     Transform groundCheck;
 
+    [SerializeField]
     private float runspeed = 3;
+    [SerializeField]
+    private float jumpspeed = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -52,21 +55,22 @@ public class Move2D : MonoBehaviour
                 animator.Play("Run");
             spriteRenderer.flipX = true; //we want him to flip when he goes left
         }
-        else if (Input.GetKey("down"))
+        if (isGrounded)
         {
-            rb2d.velocity = new Vector2(0, 0);
-            animator.Play("Colpo");
-        }
-        else if (isGrounded)
-        {
-            animator.Play("Player");
-            rb2d.velocity = new Vector2(0, rb2d.velocity.y);
-        }
-
-        if ((Input.GetKey("space") || Input.GetKey("up")) && isGrounded)
-        {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 5); //we'll keep the movement but we'll change the y 
-            animator.Play("Jump");
+            if (Input.GetKey("space") || Input.GetKey("up"))
+            {
+                rb2d.velocity = new Vector2(rb2d.velocity.x, jumpspeed); //we'll keep the movement but we'll change the y 
+                animator.Play("Jump");
+            }
+            if (Input.GetKey("down"))
+            {
+                rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+                animator.Play("Colpo");
+            }
+            else if (rb2d.velocity.x == 0 && rb2d.velocity.y == 0)
+            {
+                animator.Play("Player");
+            }
         }
     }
 }
