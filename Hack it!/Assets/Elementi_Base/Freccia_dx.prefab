@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8108101774547534579}
   - component: {fileID: -5973078722069160152}
   - component: {fileID: -2852238980559739966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_dx
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0003600493}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,7 +107,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.100670695, y: 0.10135068}
   m_EdgeRadius: 0
 --- !u!50 &-2852238980559739966
 Rigidbody2D:
