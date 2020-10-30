@@ -3,15 +3,15 @@
 --- !u!1 &1871935453486240743
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507513376685, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935453486240736}
   - component: {fileID: 1871935453486240737}
-  m_Layer: 0
+  - component: {fileID: 215307056}
+  m_Layer: 8
   m_Name: Freccia_alto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21,8 +21,7 @@ GameObject:
 --- !u!4 &1871935453486240736
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507513376682, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453486240743}
@@ -36,8 +35,7 @@ Transform:
 --- !u!212 &1871935453486240737
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507513376683, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453486240743}
@@ -84,11 +82,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &215307056
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935453486240743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0013585836, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.30593494, y: 0.10221481}
+  m_EdgeRadius: 0
 --- !u!1 &1871935453494583267
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507572110249, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -96,7 +119,7 @@ GameObject:
   - component: {fileID: 1871935453494583294}
   - component: {fileID: 1871935453494583293}
   - component: {fileID: 1871935453494583292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Down_Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,8 +129,7 @@ GameObject:
 --- !u!4 &1871935453494583294
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507572110260, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453494583267}
@@ -125,8 +147,7 @@ Transform:
 --- !u!212 &1871935453494583293
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507572110263, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453494583267}
@@ -177,8 +198,7 @@ SpriteRenderer:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507572110262, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453494583267}
@@ -194,21 +214,21 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 3
+  m_Constraints: 7
 --- !u!1 &1871935453560457419
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507582149761, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935453560457412}
   - component: {fileID: 1871935453560457413}
-  m_Layer: 0
+  - component: {fileID: 1286843701}
+  m_Layer: 8
   m_Name: Freccia_alto
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,8 +236,7 @@ GameObject:
 --- !u!4 &1871935453560457412
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507582149774, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453560457419}
@@ -231,8 +250,7 @@ Transform:
 --- !u!212 &1871935453560457413
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507582149775, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453560457419}
@@ -279,18 +297,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1286843701
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935453560457419}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.09711838}
+  m_EdgeRadius: 0
 --- !u!1 &1871935453851398134
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507358417852, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935453851398135}
   - component: {fileID: 1871935453851398128}
-  m_Layer: 0
+  - component: {fileID: 256019532}
+  m_Layer: 8
   m_Name: Freccia_basso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,8 +344,7 @@ GameObject:
 --- !u!4 &1871935453851398135
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507358417853, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453851398134}
@@ -315,8 +358,7 @@ Transform:
 --- !u!212 &1871935453851398128
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507358417850, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453851398134}
@@ -363,18 +405,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &256019532
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935453851398134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0013587493, y: 0.0013580322}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11036302, y: 0.11036301}
+  m_EdgeRadius: 0
 --- !u!1 &1871935453878725744
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507398066234, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935453878725745}
   - component: {fileID: 1871935453878725746}
-  m_Layer: 0
+  - component: {fileID: 303587216}
+  m_Layer: 8
   m_Name: Freccia_basso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,8 +452,7 @@ GameObject:
 --- !u!4 &1871935453878725745
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507398066235, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453878725744}
@@ -399,8 +466,7 @@ Transform:
 --- !u!212 &1871935453878725746
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507398066232, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453878725744}
@@ -447,11 +513,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &303587216
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935453878725744}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0027155094, y: 0.0027160645}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.107646964, y: 0.10764694}
+  m_EdgeRadius: 0
 --- !u!1 &1871935453961191628
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507449425030, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -459,7 +550,7 @@ GameObject:
   - component: {fileID: 1871935453961191631}
   - component: {fileID: 1871935453961191630}
   - component: {fileID: 1871935453961191629}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Down_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,8 +560,7 @@ GameObject:
 --- !u!4 &1871935453961191631
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507449425029, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453961191628}
@@ -488,8 +578,7 @@ Transform:
 --- !u!212 &1871935453961191630
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507449425028, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453961191628}
@@ -540,8 +629,7 @@ SpriteRenderer:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507449425031, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935453961191628}
@@ -557,12 +645,11 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 3
+  m_Constraints: 7
 --- !u!1 &1871935454004522026
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508077576288, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -571,7 +658,7 @@ GameObject:
   - component: {fileID: 1871935454004522021}
   - component: {fileID: 1871935454004522020}
   - component: {fileID: 1871935454004522027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Firewall_grande
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,8 +668,7 @@ GameObject:
 --- !u!4 &1871935454004522022
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508077576300, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454004522026}
@@ -596,8 +682,7 @@ Transform:
 --- !u!212 &1871935454004522021
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508077576303, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454004522026}
@@ -648,8 +733,7 @@ SpriteRenderer:
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508077576302, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454004522026}
@@ -668,8 +752,7 @@ Animator:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508077576289, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454004522026}
@@ -689,17 +772,17 @@ Rigidbody2D:
 --- !u!1 &1871935454311082160
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507829376250, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935454311082161}
   - component: {fileID: 1871935454311082162}
-  m_Layer: 0
+  - component: {fileID: 151306587}
+  m_Layer: 8
   m_Name: Freccia_sx
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -707,8 +790,7 @@ GameObject:
 --- !u!4 &1871935454311082161
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507829376251, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454311082160}
@@ -722,8 +804,7 @@ Transform:
 --- !u!212 &1871935454311082162
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507829376248, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454311082160}
@@ -770,18 +851,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &151306587
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935454311082160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.028806105, y: -0.0020580292}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1423878, y: 0.101234436}
+  m_EdgeRadius: 0
 --- !u!1 &1871935454419677975
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507922509661, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935454419677968}
   - component: {fileID: 1871935454419677969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_sx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,8 +897,7 @@ GameObject:
 --- !u!4 &1871935454419677968
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507922509658, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454419677975}
@@ -806,8 +911,7 @@ Transform:
 --- !u!212 &1871935454419677969
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631507922509659, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454419677975}
@@ -857,17 +961,17 @@ SpriteRenderer:
 --- !u!1 &1871935454502542948
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508577972782, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935454502542949}
   - component: {fileID: 1871935454502542950}
-  m_Layer: 0
+  - component: {fileID: 1525040772}
+  m_Layer: 8
   m_Name: Freccia_basso
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -875,8 +979,7 @@ GameObject:
 --- !u!4 &1871935454502542949
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508577972783, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454502542948}
@@ -890,8 +993,7 @@ Transform:
 --- !u!212 &1871935454502542950
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508577972780, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454502542948}
@@ -938,11 +1040,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1525040772
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935454502542948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0010282435, y: 0.0010290146}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.09917643, y: 0.09917641}
+  m_EdgeRadius: 0
 --- !u!1 &1871935454532914347
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508555849953, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -950,7 +1077,7 @@ GameObject:
   - component: {fileID: 1871935454532914342}
   - component: {fileID: 1871935454532914341}
   - component: {fileID: 1871935454532914340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Down_Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,8 +1087,7 @@ GameObject:
 --- !u!4 &1871935454532914342
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508555849964, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454532914347}
@@ -979,8 +1105,7 @@ Transform:
 --- !u!212 &1871935454532914341
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508555849967, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454532914347}
@@ -1031,8 +1156,7 @@ SpriteRenderer:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508555849966, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454532914347}
@@ -1048,19 +1172,18 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 3
+  m_Constraints: 7
 --- !u!1 &1871935454595585628
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508618590742, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935454595585629}
   - component: {fileID: 1871935454595585630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_sx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1070,8 +1193,7 @@ GameObject:
 --- !u!4 &1871935454595585629
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508618590743, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454595585628}
@@ -1085,8 +1207,7 @@ Transform:
 --- !u!212 &1871935454595585630
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508618590740, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454595585628}
@@ -1136,15 +1257,15 @@ SpriteRenderer:
 --- !u!1 &1871935454760908083
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508797200761, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935454760908108}
   - component: {fileID: 1871935454760908109}
-  m_Layer: 0
+  - component: {fileID: 1937600113}
+  m_Layer: 8
   m_Name: Freccia_alto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,8 +1275,7 @@ GameObject:
 --- !u!4 &1871935454760908108
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508797200646, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454760908083}
@@ -1169,8 +1289,7 @@ Transform:
 --- !u!212 &1871935454760908109
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508797200647, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935454760908083}
@@ -1217,20 +1336,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1937600113
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935454760908083}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0027153492, y: -0.0013580322}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.30321887, y: 0.10493088}
+  m_EdgeRadius: 0
 --- !u!1 &1871935455259695137
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631509297050731, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935455259695138}
   - component: {fileID: 1871935455259695139}
-  m_Layer: 0
+  - component: {fileID: 2123793990}
+  m_Layer: 8
   m_Name: Freccia_dx
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1238,8 +1383,7 @@ GameObject:
 --- !u!4 &1871935455259695138
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631509297050728, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455259695137}
@@ -1253,8 +1397,7 @@ Transform:
 --- !u!212 &1871935455259695139
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631509297050729, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455259695137}
@@ -1301,18 +1444,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2123793990
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871935455259695137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.023662746, y: -0.0010290146}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1526745, y: 0.09917641}
+  m_EdgeRadius: 0
 --- !u!1 &1871935455330483981
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508831998791, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935455330483982}
   - component: {fileID: 1871935455330483983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_dx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,8 +1490,7 @@ GameObject:
 --- !u!4 &1871935455330483982
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508831998788, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455330483981}
@@ -1337,8 +1504,7 @@ Transform:
 --- !u!212 &1871935455330483983
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508831998789, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455330483981}
@@ -1388,8 +1554,7 @@ SpriteRenderer:
 --- !u!1 &1871935455379262379
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508917561313, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -1397,10 +1562,10 @@ GameObject:
   - component: {fileID: 1871935455379262375}
   - component: {fileID: 1871935455379262374}
   - component: {fileID: 1871935455379262373}
-  - component: {fileID: 1871935455379262372}
-  m_Layer: 0
+  - component: {fileID: 1394005031}
+  m_Layer: 8
   m_Name: Blocco1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1408,12 +1573,11 @@ GameObject:
 --- !u!4 &1871935455379262375
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508917561325, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455379262379}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 203.3, y: 155.4, z: -31.68}
   m_LocalScale: {x: 28, y: 0.1247, z: 0}
   m_Children:
@@ -1427,8 +1591,7 @@ Transform:
 --- !u!33 &1871935455379262374
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508917561324, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455379262379}
@@ -1436,8 +1599,7 @@ MeshFilter:
 --- !u!23 &1871935455379262373
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508917561327, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455379262379}
@@ -1473,32 +1635,43 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1871935455379262372
-BoxCollider:
+--- !u!61 &1394005031
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631508917561326, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455379262379}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.19802228}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.99999994, y: 1.3960445}
+  m_EdgeRadius: 0
 --- !u!1 &1871935455497367629
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631509000264711, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871935455497367630}
   - component: {fileID: 1871935455497367631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_dx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1508,8 +1681,7 @@ GameObject:
 --- !u!4 &1871935455497367630
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631509000264708, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455497367629}
@@ -1523,8 +1695,7 @@ Transform:
 --- !u!212 &1871935455497367631
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9215631509000264709, guid: 2c8801682e45ea74da155b2c30c23b2a,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935455497367629}
