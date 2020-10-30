@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 197959770564183975}
   - component: {fileID: 8254254535181015611}
   - component: {fileID: -7703070760562917601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blocco5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,6 +676,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Firewall_grande
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957881014222339123, guid: 288638313ba9ec04c97c91f8a495510b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 288638313ba9ec04c97c91f8a495510b, type: 3}

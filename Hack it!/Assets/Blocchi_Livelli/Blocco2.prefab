@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478816558711363}
   - component: {fileID: 5589478816558711360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_dx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 5589478816735467770}
   - component: {fileID: 5589478816735467773}
   - component: {fileID: 5589478816735467772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Firewall_grande (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 5589478816798107401}
   - component: {fileID: 5589478816798107400}
   - component: {fileID: 5589478816798107403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pavement (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 5589478816807712258}
   - component: {fileID: 5589478816807712261}
   - component: {fileID: 5589478816807712260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Down_Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478816937228959}
   - component: {fileID: 5589478816937228956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_alto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478817676597111}
   - component: {fileID: 5589478817676597108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_dx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478817729212595}
   - component: {fileID: 5589478817729212592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_sx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478817736307467}
   - component: {fileID: 5589478817736307464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_basso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -739,7 +739,7 @@ GameObject:
   - component: {fileID: 5589478817814043572}
   - component: {fileID: 5589478817814043575}
   - component: {fileID: 5589478817814043573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Up_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -845,7 +845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478817842734043}
   - component: {fileID: 5589478817842734040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_sx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,7 +926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478817890371649}
   - component: {fileID: 5589478817890371662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_basso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,7 +1007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5589478818279731289}
   - component: {fileID: 5589478818279731270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Freccia_alto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1089,7 +1089,7 @@ GameObject:
   - component: {fileID: 5067280611418781997}
   - component: {fileID: 1182157394395550412}
   - component: {fileID: 3391230012907584753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blocco2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
