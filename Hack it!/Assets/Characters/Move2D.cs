@@ -50,18 +50,18 @@ public class Move2D : MonoBehaviour
         if (Input.GetKey("right")) //se l'input è il tasto freccetta destra
         {
             rb2d.velocity = new Vector2(runspeed, rb2d.velocity.y); //we're giving a new velocity that's 2 on the x and keeping the y
-           // if (isGrounded)
+            if (isGrounded)
                 animator.Play("Run"); //if the player is going right we want him to play the animation Run
             spriteRenderer.flipX = false; //we dont want it to flip when he goes right
         }
         else if (Input.GetKey("left")) //se l'input è il tasto freccetta sinistra
         {
             rb2d.velocity = new Vector2(-runspeed, rb2d.velocity.y);
-          // if (isGrounded)
+           if (isGrounded)
                 animator.Play("Run");
             spriteRenderer.flipX = true; //we want him to flip when he goes left
         }
-        //if (isGrounded)
+        if (isGrounded)
         {
             if (Input.GetKey("space") || Input.GetKey("up"))
             {
