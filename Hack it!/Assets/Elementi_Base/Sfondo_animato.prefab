@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8830587313997909842}
   - component: {fileID: 8830587313997909843}
   - component: {fileID: 8830587313997909932}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Sfondo_animato
   m_TagString: Untagged
   m_Icon: {fileID: 0}

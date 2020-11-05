@@ -57,7 +57,7 @@ public class Move2D : MonoBehaviour
         else if (Input.GetKey("left")) //se l'input è il tasto freccetta sinistra
         {
             rb2d.velocity = new Vector2(-runspeed, rb2d.velocity.y);
-            if (isGrounded)
+           if (isGrounded)
                 animator.Play("Run");
             spriteRenderer.flipX = true; //we want him to flip when he goes left
         }
