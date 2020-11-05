@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour
+public class Pausa : MonoBehaviour
 {
     public GameObject pauseMenu;
     public bool isPaused;
@@ -16,18 +16,15 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(false);
     }
 
-    void Update()
+    public void mettiInPausa()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))    /* DA AGGIORNARE */
+        if (isPaused)
         {
-            if (isPaused)
-            {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
-            }
+            ResumeGame();
+        }
+        else
+        {
+            PauseGame();
         }
     }
 
