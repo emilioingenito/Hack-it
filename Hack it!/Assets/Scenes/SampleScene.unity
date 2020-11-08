@@ -212,6 +212,27 @@ PrefabInstance:
       propertyPath: m_UseAutoMass
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4093581819583935738, guid: 1d5a8d0592d7f0144b6226bb082bed12,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093581819583935738, guid: 1d5a8d0592d7f0144b6226bb082bed12,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093581819583935738, guid: 1d5a8d0592d7f0144b6226bb082bed12,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093581819583935738, guid: 1d5a8d0592d7f0144b6226bb082bed12,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cb29540765d6984e992bca5277a4ec9,
+        type: 3}
     - target: {fileID: 4093581819583935739, guid: 1d5a8d0592d7f0144b6226bb082bed12,
         type: 3}
       propertyPath: m_LocalPosition.x
