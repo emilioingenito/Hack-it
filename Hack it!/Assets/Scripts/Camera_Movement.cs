@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Camera_Movement : MonoBehaviour
 {
@@ -9,15 +10,13 @@ public class Camera_Movement : MonoBehaviour
     [SerializeField]
     public Rigidbody2D main_camera;
 
+    
     // Start is called before the first frame update
-    void Start()
-    {
-    }
-
+   
     // Update is called once per frame
     void FixedUpdate()
     {
-        
-        main_camera.MovePosition(player.position);
+        Vector2 t = new Vector2(4f+player.position.x, main_camera.position.y);
+        main_camera.MovePosition(t);
     }
 }
