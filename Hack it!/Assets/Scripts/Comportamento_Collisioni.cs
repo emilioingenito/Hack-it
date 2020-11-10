@@ -14,8 +14,8 @@ public class Comportamento_Collisioni : MonoBehaviour
 
         if (collision.gameObject.Equals(player))
         {
-           // animator.Play("Death");
-            yield return new WaitForSeconds(1);
+            animator.Play("Death");
+            yield return new WaitForSeconds(0.5f);
             SceneManager.LoadScene("01 collision");
         }
     }

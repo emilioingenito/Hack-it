@@ -6,17 +6,6 @@ using UnityEngine.SceneManagement;
 public class Comportamento_Collisioni_Nemico : MonoBehaviour
 {
    
-    public GameObject palyer;
-   
-  
-       
-
-    // Start is called before the first frame update
-   /* private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Collider2D.Destroy(gameObject,0.5f);
-    }*/
-   
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -25,8 +14,8 @@ public class Comportamento_Collisioni_Nemico : MonoBehaviour
         if (collision.gameObject.Equals(player))
         {
              
-            // animator.Play("Death");
-            yield return new WaitForSeconds(1);
+             animator.Play("Death");
+            yield return new WaitForSeconds(0.5f);
                 SceneManager.LoadScene("01 collision");
         }
     }
