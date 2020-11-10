@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Comportamento_Collisioni_Bug : MonoBehaviour
+public class Comportamento_Collisioni_Nemico : MonoBehaviour
 {
    
     public GameObject palyer;
-    public Rigidbody2D bug;
+   
   
        
 

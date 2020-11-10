@@ -139,7 +139,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   palyer: {fileID: 4093581819583935743, guid: 1d5a8d0592d7f0144b6226bb082bed12, type: 3}
-  bug: {fileID: 627980363771237366}
 --- !u!61 &4391494760978291570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -178,7 +177,7 @@ GameObject:
   - component: {fileID: 5109111843709857553}
   - component: {fileID: 8733498503095924484}
   - component: {fileID: 3195714342153334398}
-  - component: {fileID: 920138591827254328}
+  - component: {fileID: 6637716487800906358}
   m_Layer: 0
   m_Name: New Sprite Mask
   m_TagString: Untagged
@@ -268,7 +267,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &3195714342153334398
 BoxCollider2D:
@@ -296,7 +295,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4215938, y: 0.4672327}
   m_EdgeRadius: 0
---- !u!114 &920138591827254328
+--- !u!114 &6637716487800906358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6751d98b5bb76354e8b20165b5ba8ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bug: {fileID: 627980363771237366}
+  nemico: {fileID: 627980363771237366}
   me: {fileID: 8733498503095924484}
-  bugOgg: {fileID: 2982290096342221255}
+  ogg: {fileID: 2982290096342221255}
   player: {fileID: 4093581819583935743, guid: 1d5a8d0592d7f0144b6226bb082bed12, type: 3}

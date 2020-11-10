@@ -4,19 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Timeline;
 
-public class uccisione_bug : MonoBehaviour
+public class uccisione_nemico : MonoBehaviour
 {
-    public Rigidbody2D bug;
+    public Rigidbody2D nemico;
     public Rigidbody2D me;
-    public GameObject bugOgg;
-    public GameObject player;
+    public GameObject ogg;
     bool ucciso = false;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");  //in questo modo associo il giocatore in ogni livello a player
         if (collision.gameObject.Equals(player))
         {
-            Destroy(bugOgg);
+            Destroy(ogg);  //mi serve un gameObject e non un RigidBody2D
             ucciso = true;
         }
               
@@ -25,6 +25,6 @@ public class uccisione_bug : MonoBehaviour
     void FixedUpdate()
     {
         if(ucciso==false)
-        me.MovePosition(bug.position);
+        me.MovePosition(nemico.position);
     }
 }
