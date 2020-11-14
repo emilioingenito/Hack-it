@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menu Scenes/Settings.unity
     guid: febbdda76b22f4ce8b9be064af8d5cfd
+  - enabled: 1
+    path: Assets/Scenes/Livello_02.unity
+    guid: ef506afcd12e2d545b0562b4644c6d83
+  - enabled: 1
+    path: Assets/Scenes/Livello_03.unity
+    guid: ce84cf212cd9f3148ad26695972dd7a3
+  - enabled: 1
+    path: Assets/Scenes/01 collision.unity
+    guid: 87ce9f1a53ddf41299fc7d20a89d89a4
   m_configObjects: {}
