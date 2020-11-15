@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4528112670489060764}
   - component: {fileID: 7004915056877258736}
   - component: {fileID: 5482929648601091076}
-  - component: {fileID: 6467158120073345632}
+  - component: {fileID: 2855549055228969586}
   m_Layer: 0
   m_Name: worm_esce_dalla_terra
   m_TagString: Untagged
@@ -136,7 +136,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0021659099, y: 0.011868343}
@@ -152,7 +152,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.24519044, y: 0.06854859}
   m_EdgeRadius: 0
---- !u!114 &6467158120073345632
+--- !u!114 &2855549055228969586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6556100542732614521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54bddcb5562cd0f45af54425b5be6b99, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a2665b0e3060074388ce9b7bf4913d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7142331267426138150
@@ -306,6 +306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6751d98b5bb76354e8b20165b5ba8ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nemico: {fileID: 7004915056877258736}
-  me: {fileID: 4925172996739005418}
+  nemico: {fileID: 6556100542732614521}
+  me: {fileID: 7142331267426138150}
   ogg: {fileID: 6556100542732614521}

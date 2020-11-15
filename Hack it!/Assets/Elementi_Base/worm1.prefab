@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &4421825406724707658
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,10 +142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6751d98b5bb76354e8b20165b5ba8ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nemico: {fileID: 3789778049898985473}
-  me: {fileID: 1607588860802426208}
+  nemico: {fileID: 8746102111604646997}
+  me: {fileID: 7099340537351460352}
   ogg: {fileID: 8746102111604646997}
-  player: {fileID: 4093581819583935743, guid: 1d5a8d0592d7f0144b6226bb082bed12, type: 3}
 --- !u!1 &8746102111604646997
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,4 +309,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a2665b0e3060074388ce9b7bf4913d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  palyer: {fileID: 4093581819583935743, guid: 1d5a8d0592d7f0144b6226bb082bed12, type: 3}
