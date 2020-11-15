@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
     public PlayerStats playerStats = new PlayerStats();
 
-    public int fallBoundary = -20;
+    public int fallBoundary = 150;
 
     void Update()
     {
