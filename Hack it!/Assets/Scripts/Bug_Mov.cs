@@ -11,25 +11,30 @@ public class Bug_Mov : MonoBehaviour
 
 	Vector3 nextPos;
 
+    SpriteRenderer spriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
         nextPos = startPos.position;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(transform.position == pos1.position)
+        if(transform.position.x == pos1.position.x)
         {
         	nextPos = pos2.position;
-            bug.transform.localScale = new Vector3(6, 6, 0);
+            spriteRenderer.flipX = true;
+            // bug.transform.localScale = new Vector3(6, 6, 0);
         }
 
-        if(transform.position == pos2.position)
+        if(transform.position.x == pos2.position.x)
         {
         	nextPos = pos1.position;
-            bug.transform.localScale = new Vector3(-6, 6, 0);
+            spriteRenderer.flipX = false;
+            // bug.transform.localScale = new Vector3(-6, 6, 0);
         }
 
         transform.position = Vector3.MoveTowards(transform.position, nextPos, speed*Time.deltaTime);
