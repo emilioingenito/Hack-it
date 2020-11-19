@@ -15,8 +15,8 @@ public class Comportamento_Collisioni_Nemico : MonoBehaviour
         {
              
              animator.Play("Death");
-            yield return new WaitForSeconds(0.5f);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+             yield return new WaitForSeconds(0.5f);
+             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
