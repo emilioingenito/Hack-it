@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Bug
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -40,11 +42,8 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Background
-    uniqueID: 1447103029
+    uniqueID: 1031509711
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: ground
-    uniqueID: 2169630515
     locked: 0
