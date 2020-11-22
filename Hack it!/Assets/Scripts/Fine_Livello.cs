@@ -15,7 +15,11 @@ public class Fine_Livello : MonoBehaviour
         if (collision.gameObject.Equals(player))
         {
             //qui verrà messo il controllo sul numero minimo di oggetti raccolti
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            //if(HorizontalWrapMode raccolto tutti gli elementi)
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            //else
+            SceneManager.LoadScene("Fine_livello_successo");
+
         }
     }
 }
