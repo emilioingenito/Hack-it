@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3557770054250753273}
   - component: {fileID: 6385901542594752172}
   - component: {fileID: 1375663660484250818}
-  - component: {fileID: 2495564929578656553}
+  - component: {fileID: 4848720044103934147}
   m_Layer: 8
   m_Name: Down_Platform
   m_TagString: Ground
@@ -108,7 +108,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 7
---- !u!61 &2495564929578656553
+--- !u!61 &4848720044103934147
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.46784377, y: -0.23404151}
+  m_Offset: {x: -0.4572109, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5094433, y: 1.680812}
+  m_Size: {x: 0.9145217, y: 0.0001}
   m_EdgeRadius: 0
 --- !u!1001 &3389148592065427414
 PrefabInstance:
@@ -229,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 1503368209698800286, guid: b1829f907cbe7794d954e5070eba313a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1901133
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 1503368209698800286, guid: b1829f907cbe7794d954e5070eba313a,
         type: 3}
@@ -304,22 +304,22 @@ PrefabInstance:
     - target: {fileID: 2512099174155975882, guid: 906fa5b661c9e204cb8d3e1648955314,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.051191032
+      value: -0.05264303
       objectReference: {fileID: 0}
     - target: {fileID: 2512099174155975882, guid: 906fa5b661c9e204cb8d3e1648955314,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.20664817
+      value: 0.20374417
       objectReference: {fileID: 0}
     - target: {fileID: 2512099174155975882, guid: 906fa5b661c9e204cb8d3e1648955314,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.0013291091
+      value: 0.0013291016
       objectReference: {fileID: 0}
     - target: {fileID: 2512099174155975882, guid: 906fa5b661c9e204cb8d3e1648955314,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.3116445
+      value: 0.09898831
       objectReference: {fileID: 0}
     - target: {fileID: 4421292291759833565, guid: 906fa5b661c9e204cb8d3e1648955314,
         type: 3}
