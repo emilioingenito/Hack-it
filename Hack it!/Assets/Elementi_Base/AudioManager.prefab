@@ -47,10 +47,10 @@ MonoBehaviour:
   - nome: Death
     clip: {fileID: 8300000, guid: 4cc99fa2811994a28943ab9b6ac7b9c7, type: 3}
     volume: 1
-    pitch: 0
+    pitch: 100
     source: {fileID: 0}
   - nome: Collect
     clip: {fileID: 0}
     volume: 1
-    pitch: 0
+    pitch: 100
     source: {fileID: 0}
