@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Bug
   - Platform
+  - AudioController
   layers:
   - Default
   - TransparentFX
