@@ -8,6 +8,7 @@ TagManager:
   - Bug
   - Platform
   - AudioController
+  - Coin
   layers:
   - Default
   - TransparentFX

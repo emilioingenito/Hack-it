@@ -502,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 6705538213414049956, guid: 0d94607cdef1d834ab2c5b970d290c86,
         type: 3}
       propertyPath: scene_name
-      value: Livello_01
+      value: Livello_01_clone
       objectReference: {fileID: 0}
     - target: {fileID: 6705538213414049977, guid: 0d94607cdef1d834ab2c5b970d290c86,
         type: 3}
