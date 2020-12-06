@@ -373,6 +373,7 @@ RectTransform:
   - {fileID: 1904472987}
   - {fileID: 551147268}
   - {fileID: 661369513}
+  - {fileID: 1492529051}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -417,8 +418,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -211.99997, y: -235}
-  m_SizeDelta: {x: 292.716, y: 94.81482}
+  m_AnchoredPosition: {x: -5.5122, y: 0}
+  m_SizeDelta: {x: 187.87009, y: 40.827538}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &551147269
 MonoBehaviour:
@@ -536,8 +537,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196.00012, y: -235}
-  m_SizeDelta: {x: 292.716, y: 94.81482}
+  m_AnchoredPosition: {x: -5.4999, y: -59.6}
+  m_SizeDelta: {x: 187.89435, y: 45.160805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &661369514
 MonoBehaviour:
@@ -581,7 +582,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 661369515}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1261457742}
+        m_MethodName: GetFriendsPlayingThisGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &661369515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,6 +975,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1261457740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1261457741}
+  - component: {fileID: 1261457742}
+  m_Layer: 0
+  m_Name: FB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1261457741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261457740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 348.821, y: 120.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261457742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261457740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf7cbaa171b2624c95d926e13a05b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FriendsText: {fileID: 1492529052}
 --- !u!1 &1332610560
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,8 +1055,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 32}
-  m_SizeDelta: {x: 292.71613, y: 97.665436}
+  m_AnchoredPosition: {x: -259.00006, y: -26.466}
+  m_SizeDelta: {x: 154.35815, y: 58.25232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332610562
 MonoBehaviour:
@@ -1044,7 +1100,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1332610563}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1261457742}
+        m_MethodName: FacebookLogout
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1332610563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,8 +1185,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 161}
-  m_SizeDelta: {x: 292.716, y: 94.81482}
+  m_AnchoredPosition: {x: -259, y: 64}
+  m_SizeDelta: {x: 154.358, y: 56.19507}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392602566
 MonoBehaviour:
@@ -1163,7 +1230,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1392602567}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1261457742}
+        m_MethodName: FacebookLogin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1392602567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,6 +1278,84 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392602564}
+  m_CullTransparentMesh: 0
+--- !u!1 &1492529050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492529051}
+  - component: {fileID: 1492529053}
+  - component: {fileID: 1492529052}
+  m_Layer: 5
+  m_Name: FriendsText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1492529051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492529050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 411937194}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 126.26, y: -105.8}
+  m_SizeDelta: {x: 451.47687, y: 47.24859}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1492529052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492529050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Your friends will be displayed here
+--- !u!222 &1492529053
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492529050}
   m_CullTransparentMesh: 0
 --- !u!1 &1542440001
 GameObject:
@@ -1393,8 +1549,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -211.99997, y: -103}
-  m_SizeDelta: {x: 292.716, y: 94.81482}
+  m_AnchoredPosition: {x: -5.5, y: 115.38}
+  m_SizeDelta: {x: 187.89441, y: 46.564026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698796517
 MonoBehaviour:
@@ -1438,7 +1594,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1698796518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1261457742}
+        m_MethodName: FacebookShare
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1698796518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1512,8 +1679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196.00012, y: -103}
-  m_SizeDelta: {x: 292.716, y: 94.81482}
+  m_AnchoredPosition: {x: -5.4878, y: 57.104}
+  m_SizeDelta: {x: 187.87006, y: 42.402283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1904472988
 MonoBehaviour:
@@ -1557,7 +1724,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1904472989}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1261457742}
+        m_MethodName: FacebookGameRequest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1904472989
 MonoBehaviour:
   m_ObjectHideFlags: 0
