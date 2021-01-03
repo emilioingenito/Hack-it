@@ -70,8 +70,8 @@ public class Move2D : MonoBehaviour
             }
             if (Input.GetKey("down"))
             {
-                rb2d.velocity = new Vector2(0, rb2d.velocity.y);
-                animator.Play("Colpo");
+               //rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+               //animator.Play("Colpo");
             }
             else if (rb2d.velocity.x == 0 && rb2d.velocity.y == 0)
             {
