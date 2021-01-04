@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FacebookSDK/Examples/Pay.unity
     guid: 3ee189cdb21ea4bdb9d7022a0780c44c
+  - enabled: 1
+    path: Assets/FacebookLogin/ScenaEsempio.unity
+    guid: 46b3248cdca7d7043960a5eb7959610d
   m_configObjects: {}
