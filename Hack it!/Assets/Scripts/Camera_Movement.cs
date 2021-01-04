@@ -16,7 +16,7 @@ public class Camera_Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 t = new Vector2(4f+player.position.x, main_camera.position.y);
+        Vector2 t = new Vector2(0.125f+player.position.x, main_camera.position.y);
         main_camera.MovePosition(t);
     }
 }
