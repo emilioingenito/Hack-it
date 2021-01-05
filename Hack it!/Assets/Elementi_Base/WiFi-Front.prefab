@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1016473828460566173}
   - component: {fileID: 4954795925848825241}
   - component: {fileID: 1384437333741838363}
-  - component: {fileID: 5760113867569049755}
   - component: {fileID: -8498320864095760306}
   m_Layer: 0
   m_Name: WiFi-Front
@@ -124,7 +123,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 3
 --- !u!114 &1384437333741838363
 MonoBehaviour:
@@ -141,19 +140,6 @@ MonoBehaviour:
   me: {fileID: 8034153711422917166}
   collectSound: {fileID: 0}
   coinValue: 1
---- !u!114 &5760113867569049755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8034153711422917166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593ac531f1582a444bf620134e1e9b52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  me: {fileID: 8034153711422917166}
 --- !u!61 &-8498320864095760306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -169,7 +155,7 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.0001370795, y: 0.0024882182}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.37, y: 0.42, z: 0.45999998, w: 0.42999998}
     pivot: {x: 0.45155036, y: 0.49031013}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}

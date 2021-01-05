@@ -10,6 +10,7 @@ TagManager:
   - AudioController
   - Coin
   - audioManager
+  - Joystick
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: ui
+    uniqueID: 3205691819
+    locked: 0
   - name: Background
     uniqueID: 1031509711
     locked: 0
