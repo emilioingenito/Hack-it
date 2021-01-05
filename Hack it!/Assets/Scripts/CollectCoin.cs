@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class CollectCoin : MonoBehaviour
-{
+{ 
     public GameObject me;
     public AudioSource collectSound;
     public int coinValue=1;
