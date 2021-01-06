@@ -11,9 +11,11 @@ public class CollectCoin : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        collectSound.Play();
-        Destroy(me.gameObject);
-        ScoreManager.instance.ChangeScore(coinValue);
+       
+            collectSound.Play();
+            Destroy(me.gameObject);
+            ScoreManager.instance.ChangeScore(coinValue);
+        
     }
 
 }
