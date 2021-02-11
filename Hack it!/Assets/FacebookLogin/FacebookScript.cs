@@ -46,9 +46,10 @@ public class FacebookScript : MonoBehaviour
 
     public void FacebookShare()
     {
-        //FB.ShareLink(new System.Uri("the url you will be redirected to"), "Check it out!",
-        //    "un'altra frase",
-       //     new System.Uri("photo url"));
+      FB.ShareLink(new System.Uri("https://github.com/emilioingenito/Hack-it"), "Check it out!",
+                   "Play Hack It!"
+      //     new System.Uri("photo url")
+      );
     }
 
     #region Inviting

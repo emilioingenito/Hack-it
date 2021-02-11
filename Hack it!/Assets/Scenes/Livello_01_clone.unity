@@ -7054,6 +7054,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blocco2
       objectReference: {fileID: 0}
+    - target: {fileID: 8830931246875070526, guid: 5d205f1f780c0d148b9e1149134fb7bb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830931246875070526, guid: 5d205f1f780c0d148b9e1149134fb7bb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.581
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3391230012907584753, guid: 5d205f1f780c0d148b9e1149134fb7bb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5d205f1f780c0d148b9e1149134fb7bb, type: 3}
