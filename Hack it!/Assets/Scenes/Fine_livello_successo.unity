@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 8830587313997909842, guid: f482d6ef8f9c0fa41b7358a49df5a2bc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8830587313997909842, guid: f482d6ef8f9c0fa41b7358a49df5a2bc,
         type: 3}
@@ -230,8 +230,15 @@ PrefabInstance:
     - target: {fileID: 192387980801140429, guid: 2e584fa0c2974cb47a86d1e9a6dc54c1,
         type: 3}
       propertyPath: m_Text
-      value: "you succesfully completed this task...\nbut don't stop you still have
-        things \nto do to finish the hack..."
+      value: 'you succesfully completed this task...
+
+        but don''t stop you
+        still have things to do to finish the hack...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 192387980801140429, guid: 2e584fa0c2974cb47a86d1e9a6dc54c1,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 192387980883516362, guid: 2e584fa0c2974cb47a86d1e9a6dc54c1,
         type: 3}
