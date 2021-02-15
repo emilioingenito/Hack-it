@@ -7,6 +7,7 @@ public class Pausa : MonoBehaviour
 {
     public GameObject pauseMenu;
     public bool isPaused;
+    public string name_prec;
 
     /* Il gioco va in pausa se viene premuto il pulsante ESC
      */
@@ -51,7 +52,7 @@ public class Pausa : MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Livello_01");
+        SceneManager.LoadScene(name_prec);
     }
 
 }

@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/MainMenu.unity
-    guid: 7c38a8c9adc9d5c4b869612e4033ead8
-  - enabled: 1
-    path: Assets/Menu Scenes/Level Menu.unity
-    guid: 80e093f069386482a959ed146a335007
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Menu Scenes/Main Menu.unity
     guid: f9eaaa100eac4466185afc225e36b2b8
+  - enabled: 1
+    path: Assets/Menu Scenes/Level Menu.unity
+    guid: 80e093f069386482a959ed146a335007
   - enabled: 1
     path: Assets/Menu Scenes/Settings.unity
     guid: febbdda76b22f4ce8b9be064af8d5cfd
@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Livello_02.unity
     guid: ef506afcd12e2d545b0562b4644c6d83
   - enabled: 1
+    path: Assets/Scenes/Livello_03 def.unity
+    guid: a37dc1a3962604c86abd149f92ceb232
+  - enabled: 0
     path: Assets/Scenes/Livello_03.unity
     guid: ce84cf212cd9f3148ad26695972dd7a3
   - enabled: 1
@@ -45,32 +48,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Inizio_livello3.unity
     guid: 77716474de1316f4fb432a11db180cf3
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/AccessTokenMenu.unity
-    guid: 67cb5b2387b8e4ec9b2fa69ad9510e9b
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/AppEvents.unity
-    guid: 68ab940fa15e34433bff18301686b080
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/AppLinks.unity
-    guid: 4ac12dfde6570493291366d0ab3eb20d
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/AppRequests.unity
-    guid: c2250c9c5cf00425384401321f8dffb4
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/DialogShare.unity
-    guid: 190c345841ecc464e9a122f04369757e
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/GraphRequest.unity
-    guid: 444ae7ddf432b457a97bfe42021075e3
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/LogView.unity
-    guid: c07ff0bf6bea74c2eb681ac0cae44265
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookSDK/Examples/Pay.unity
-    guid: 3ee189cdb21ea4bdb9d7022a0780c44c
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/FacebookLogin/ScenaEsempio.unity
-    guid: 46b3248cdca7d7043960a5eb7959610d
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Menu Scenes/Credits.unity
     guid: dcc6fe695b568204cb1f281a2f39d82d
