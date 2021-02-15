@@ -12,8 +12,8 @@ public class Levels_Controller_Script : MonoBehaviour
     void Start()
     {
         levelPassed = PlayerPrefs.GetInt("levelPassed");
-        level02.interactable = false;
-        level03.interactable = false;
+        level02.interactable = true; //messi a true per video
+        level03.interactable = true; //messi a true per video
 
         switch(levelPassed)
         {
@@ -31,9 +31,10 @@ public class Levels_Controller_Script : MonoBehaviour
 
     public void ResetLevelPref()
     {
-        level02.interactable = false;
+        //disabilitato per video
+       /* level02.interactable = false;
         level03.interactable = false;
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();*/
     }
 
 
