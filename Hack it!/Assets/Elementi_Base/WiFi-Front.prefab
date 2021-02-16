@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 2089762373879927057}
   - component: {fileID: 1125557942248414619}
   - component: {fileID: 1016473828460566173}
-  - component: {fileID: 5673878675030192228}
   - component: {fileID: 4954795925848825241}
-  - component: {fileID: 108771950131370078}
+  - component: {fileID: 1384437333741838363}
+  - component: {fileID: -8498320864095760306}
   m_Layer: 0
   m_Name: WiFi-Front
-  m_TagString: Untagged
+  m_TagString: AudioController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,19 +104,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5673878675030192228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8034153711422917166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593ac531f1582a444bf620134e1e9b52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  me: {fileID: 8034153711422917166}
 --- !u!50 &4954795925848825241
 Rigidbody2D:
   serializedVersion: 4
@@ -136,9 +123,24 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &108771950131370078
+  m_CollisionDetection: 1
+  m_Constraints: 3
+--- !u!114 &1384437333741838363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034153711422917166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dd11debb4754b93983186267cd9bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  me: {fileID: 8034153711422917166}
+  collectSound: {fileID: 0}
+  coinValue: 1
+--- !u!61 &-8498320864095760306
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,12 +150,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0019354224, y: 0.0024882108}
+  m_Offset: {x: -0.0001370795, y: 0.0024882182}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.37, y: 0.42, z: 0.45999998, w: 0.42999998}
     pivot: {x: 0.45155036, y: 0.49031013}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
@@ -162,5 +164,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.15068486, y: 0.15752086}
+  m_Size: {x: 0.16146633, y: 0.15031867}
   m_EdgeRadius: 0

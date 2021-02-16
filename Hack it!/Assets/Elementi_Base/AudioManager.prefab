@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2323619586103814506}
   m_Layer: 0
   m_Name: AudioManager
-  m_TagString: Untagged
+  m_TagString: audioManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
     pitch: 100
     source: {fileID: 0}
   - nome: Collect
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2256dcf48b863406e9d187bf4c1c170f, type: 3}
     volume: 1
     pitch: 100
     source: {fileID: 0}
