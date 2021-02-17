@@ -34,7 +34,7 @@ public class AuthManager : MonoBehaviour
         FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
         {
             dependencyStatus = task.Result;
-            if (dependencyStatus == dependencyStatus.Available)
+            if (dependencyStatus == DependencyStatus.Available)
             {
                 InitializeFirebase();
             }
@@ -77,12 +77,16 @@ public class AuthManager : MonoBehaviour
             {
                 case AuthError.MissingEmail:
                     message = "Missing Email";
+                    break;
                 case AuthError.MissingPassword:
                     message = "Missing Password";
+                    break;
                 case AuthError.WrongPassword:
                     message = "Wrong Password";
+                    break;
                 case AuthError.InvalidEmail:
                     message = "Invalid Email";
+                    break;
                 case AuthError.UserNotFound:
                     message = "Account does not exist";
                     break;
