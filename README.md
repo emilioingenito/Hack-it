@@ -1,5 +1,5 @@
-# Overview
-Welcome to the Hack-It Project, an engaging 2D platform game developed as part of the Mobile Application project. This game offers an exciting journey through multiple levels, allowing players to register, login, battle bugs, and earn points. 
+# Hack-It!
+Welcome to the Hack-It project, an engaging 2D platform game developed as part of the Mobile Application project. This game offers an exciting journey through multiple levels, allowing players to register, login, battle bugs, and earn points. 
 
 ## Features
 * 2D Platform Adventure: Immerse yourself in a captivating 2D platform game filled with challenging levels and obstacles.
