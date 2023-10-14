@@ -1,5 +1,6 @@
 # Hack-It!
 Welcome to the Hack-It project, an engaging 2D platform game developed as part of the Mobile Application project. This game offers an exciting journey through multiple levels, allowing players to register, login, battle bugs, and earn points. 
+Check the following [link](https://www.youtube.com/watch?v=aXV1gKxEtos&list=PL5zUiVQDL9oR-7r9EZ9OZWt52X1n_IFo_&index=18) for a video showcase of the game!
 
 ## Features
 * 2D Platform Adventure: Immerse yourself in a captivating 2D platform game filled with challenging levels and obstacles.
